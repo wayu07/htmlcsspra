@@ -1,0 +1,32 @@
+p{
+    color:#ff0000;
+    font-size: 20px;
+    font-family: serif;
+    background-color: #ddd;
+}
+
+h1{
+    color: red;
+    font-size:40px;
+    font-family:"Avenir Next";
+    background-color: #ffd800;
+}
+/* インデントで文字下げ */
+/* color:色指定　font-size:大きさ指定 */
+/* font-family:種類指定 フォント名にスペースがあるときは""で囲む*/
+/* backgroundcolor:背景色 */
+
+h4{
+    width:500px;
+    height:80px;
+    background-color: #9de8ea;
+}
+
+img{
+    width:500px;
+    height:200px;
+}
+
+.selected{
+    color:red;
+}
