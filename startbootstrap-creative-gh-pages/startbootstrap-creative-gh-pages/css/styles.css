@@ -63,7 +63,7 @@
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
 }
-
+/* 擬似要素挿入 */
 *,
 *::before,
 *::after {
@@ -91,10 +91,10 @@ body {
 
 hr {
   margin: 1rem 0;
-  color: inherit;
+  color: var(--bs-dark);
   background-color: currentColor;
   border: 0;
-  opacity: 0.25;
+  opacity: 0.4;
 }
 
 hr:not([size]) {
@@ -11455,4 +11455,8 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+.text-left mt-0{
+  text-align: left;
+  border-bottom: solid 1px black;
 }
